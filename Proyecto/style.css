@@ -1,5 +1,7 @@
-body{
-    background-image: url("/Proyecto/img/wallpaperrick.gif") ;
-    background-repeat: repeat-y;
-    background-size: 10rem;
+body.body1{
+    background-image: url("/Proyecto/img/wallpaperrick2.gif");
+}
+p{
+    color:rgb(236, 25, 25);
+    font-weight: 900;
 }
