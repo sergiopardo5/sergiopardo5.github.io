@@ -1,5 +1,8 @@
 body.body1{
-    background-image: url("/Proyecto/img/wallpaperrick2.gif");
+    background-image:url("./img/wallpaperrick2.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 p{
     color:rgb(236, 25, 25);
