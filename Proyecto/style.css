@@ -1,10 +1,26 @@
 body.body1{
-    background-image:url("./img/wallpaperrick2.gif");
+    background-image:url("./img/wallpaperrick.gif");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-p{
-    color:rgb(236, 25, 25);
+p.p1{
+    color:rgb(240, 240, 240);
     font-weight: 900;
+    font-size:xx-large;
+}
+p.p2{
+    color:blue ;
+    font-weight: 900;
+    font-size:xx-large;
+}
+p.p3{
+    color:red;
+    font-weight: 900;
+    font-size:xx-large;
+}
+p.p4{
+    color:green;
+    font-weight: 900;
+    font-size:xx-large;
 }
