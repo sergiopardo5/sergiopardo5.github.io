@@ -1,0 +1,365 @@
+
+h1.indice{
+    text-align: left;
+    background-color: white;
+}
+p.p1{
+    color:rgb(240, 240, 240);
+    font-weight: 900;
+    font-size:large;
+    background-color: rgb(255, 255, 255);
+}
+p.p2{
+    color:rgb(255, 255, 255) ;
+    font-weight: 900;
+    font-size:medium;
+}
+p.p3{
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    font-size:x-large;
+    background-color: rgb(0, 0, 0);
+}
+p.p4{
+    color:rgb(0, 0, 0);
+    font-weight: 900;
+    font-size:large;
+    background-color: rgb(255, 255, 255);
+}
+header{
+    border: 1px white solid;
+    border-radius: 10px;
+    height: 20%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+nav{
+    height:78%;
+    position: absolute;
+    width: 10%;
+    background-color: black;
+}
+main{
+    height: 78%;
+    position: absolute;
+    width: 89.2%;
+    left: 11%;
+    top:55px;
+    left: 200px;
+}
+footer{
+    height: 10%;
+    position:absolute;
+    width: 99.1%;
+    top:87%;
+    background-color: black;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+img.hbo{
+    width: 100px;
+    height: 50px;
+}
+img.twitter{
+    width: 70px;
+    height: 50px;
+}
+img.instagram {
+    width: 50px;
+    height: 50px;
+}
+img.rickbanner {
+    width: 1710px;
+    height: 520px;
+}
+img.video{
+    width: 70px;
+    height: 50px;
+}
+p.redessociales {
+    text-align: right;
+    margin-top: -50px;
+    margin-right: 0px;
+    background-color: white;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a.indice{
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-style: double;
+    border-color: black;
+}
+a.form{
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-style: double;
+    border-color: black;
+}
+a.caracteristicas{
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-style: double;
+    border-color: black;
+}
+a.curriculum{
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-style: double;
+    border-color: black;
+}
+a.adultswim{
+    background-color: white;
+}
+/*Caracteristicas.html*/
+main.maincaracteristicas{
+    height: 78%;
+    position: absolute;
+    width: 89.2%;
+    left: 11%;
+    top:55px;
+    left: 200px;
+}
+div.div1caracteristicas{
+    position:absolute;
+    top:30px;
+    left:10px;
+    width: 1000px;
+    height: 110px;
+}
+p.caracteristicas1{
+    column-count: 3;
+    font-weight: bold;
+}
+div.div2caracteristicas{
+    border: 2px black outset;
+    border-radius: 10px;
+    position: absolute;
+    top:200px;
+    left:10px;
+    width: 650px;
+}
+p.caracteristicas2{
+    font-weight: bold;
+}
+img.caracteristicas{
+    width: 200px;
+    height: 100px;
+    float:right;
+}
+div.div2caracteristicas1{
+    border: 2px black outset;
+    border-radius: 10px;
+    position: absolute;
+    top:380px;
+    left:10px;
+    width: 650px;
+}
+img.caracteristicas1{
+    width: 230px;
+    height: 160px;
+    float:right;
+}
+div.div3caracteristicas{
+    border: 2px black solid;
+    position: absolute;
+    top:250px;
+    left:750px;
+    width: 500px;
+    border-radius: 10px;
+}
+p.caracteristicas3{
+    font-weight: bold;
+}
+img.vertical{
+    width: 350px;
+    height: 800px;
+    left: 1360px;
+    position: absolute;
+    top:29px
+}
+/*Curriculum.html*/
+body.curriculum{
+    background-image: url("./img/noparo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav.curriculum{
+    height:128%;
+    position: absolute;
+    width: 10%;
+    background-color: black;
+}
+footer.curriculum{
+    height: 10%;
+    position:absolute;
+    width: 99.1%;
+    top:137%;
+    background-color: black;
+}
+main.curriculum{
+    height: 78%;
+    position: absolute;
+    width: 89.2%;
+    top:105px;
+    left: 200px;
+}
+table.table_curriculum{
+    text-align: center;
+    margin:auto;
+    border-collapse: collapse;
+}
+td.td_curriculum1{
+    width: 300px;
+    background-color: rgb(2, 44, 107);
+    border: black 3px solid
+}
+td.td_curriculum2{
+    width: 500px;
+    border: black 3px solid;
+    background-color: rgb(226, 221, 215);
+}
+p.nombrerick{
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+
+}
+p.nombrerick2{
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    margin-left: -170px;
+}
+p.nombrerick3{
+    font-size:small;
+    color: white;
+    margin-left: 40px;
+    text-align: left;
+}
+p.nombrerick4{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    margin-left: -130px;
+}
+p.nombrerick5{
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    margin-left: -155px;
+}
+hr.hr_curriculum1{
+    width: 200px;
+}
+ul.listadesordenadarick{
+    font-size: medium;
+    color: rgb(255, 250, 250);
+    text-align: left;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+p.nombrerick6{
+    font-size:medium;
+    color: white;
+    margin-left: 40px;
+    text-align: left;
+}
+p.experienciaprofesional{
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: auto;
+    margin-top: -150px;
+    background-color: rgb(246, 252, 160);
+    width: 260px;
+    padding: 10px;
+    font-weight: bold;
+    border-style: dashed;
+    border-color: rgb(0, 166, 243);
+}
+p.exprof2{
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-left: 25px;
+    font-weight: bold;
+}
+p.exprof3{
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: auto;
+    background-color: rgb(246, 252, 160);
+    width: 260px;
+    padding: 10px;
+    font-weight: bold;
+    border-style: dashed;
+    border-color: rgb(0, 166, 243);
+}
+ul.aspectosadestacar{
+    text-align: left;
+    margin-left: 25px;
+    font-weight: bold;
+    margin: auto;
+    
+}
+hr.hrcurriculum{
+    width: 300px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+}
+/*Formulario.html*/
+div.formulario{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 40px;
+}
+form.formulario{
+    font-weight: bold;
+    background-color: lightgray;
+}
+h2.formulario{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+p.formulario{
+    text-align: center;
+    background-color: black;
+}
+/*video.html*/
+video.video{
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    left: 300px;
+}
+a.a2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: x-large;
+}
+main.video{
+    height: 800px;
+}
+footer.video {
+    top:190%
+}
+nav.video{
+    height: 1700px;
+}

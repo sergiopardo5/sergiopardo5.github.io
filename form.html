@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <p class="p1">
+            &nbsp;
+            <a href="./index.html" class="indice">Página principal</a>
+            &nbsp;
+            <a href="./caracteristicas.html" class="caracteristicas">Características</a>
+            &nbsp;
+            <a href="./curriculum.html" class="curriculum">Curriculum</a>
+            &nbsp;
+            <a href="./form.html" class="form">Formulario</a>
+        </p>            
+        </header>
+        <nav>
+            <p class="p2">
+            Rick y Morty es una serie de la producción [adult swim] y actualmente tiene 6 temporadas, disponibles en hbo. En netflix también puedes
+            ver la serie pero hasta la temporada 4. Es una serie orientada a un público adulto. El primer episodio fue emitido el 2 de diciembre de 2013.
+            <br>
+            <br>
+            Página oficial de los creadores:
+            <br>
+             <a href="https://www.adultswim.com/" class="adultswim">[adult swim]</a>
+            </p>
+        </nav>
+        <main>
+            <div class="formulario">
+                <h2 class="formulario">Reseñas</h2>
+            <form action="formulario.php" method="get" class="formulario">
+                <fieldset>
+                    <legend>Datos personales:</legend>
+                        <p>Nombre: <input name="nombre" id="nombre" type="text" size="30" placeholder="Tu nombre" required>&nbsp;&nbsp;&nbsp;Apellidos: <input name="apellidos" id="apellidos" type="text" size="50" placeholder="Los dos apellidos" required> Sexo:  <input name="sexo" id="varon" type="radio" value="varon">Varón <input name="sexo" id="mujer" type="radio" value="mujer">Mujer <input name="sexo" id="otro" type="radio" value="otro">Otro</p>
+                        <p>Email: <input name="email" id="email" type="email" size="50" placeholder="Tu correo electrónico" required>&nbsp;&nbsp;&nbsp;Teléfono (opcional): <input type="number" name="telefono" id="telefono"> </p>
+                        <p>Si eres una empresa/corporación y quieres contactar: <input name="empresa" id="empresa" type="text" size="30" placeholder="Empresa / Corporación"></p>
+                    </fieldset>
+                <fieldset>
+                    <legend>Opinión personal:</legend>
+                    <p>¿Te ha gustado la página?: <input name="radio" id="si1" type="radio"  value="si">Si <input name="radio" id="no1" type="radio"  value="no">No &nbsp;&nbsp;&nbsp;¿Por qué?: &nbsp;<textarea name="comentario" rows="1" cols="70" placeholder="Explica porque te gustó la página, o porque no te gustó."></textarea>
+                    <p>Qué nota le das a la página: (Cuanto más a la izquierda menos nota, cuanto mas a la derecha mas nota) <input type="range" name="rango" min="1" max="10" step="1"></p>
+                </fieldset>
+                <fieldset>
+                    <legend>A cerca de Rick y Morty</legend>  
+                    <p>¿Has visto Rick y Morty?: <input name="radio2" id="si2" type="radio" value="si">Si <input name="radio2" id="no2" type="radio"  value="no">No &nbsp;&nbsp;&nbsp;
+                        ¿Cuántas temporadas has visto? <select name="temporadas" id="temporadas"><option>.</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option></select></p>
+                    <p>Donde sueles ver Rick y Morty: <input name="netflix" id="netflix" type="checkbox">Netflix <input name="hbo" id="hbo" type="checkbox">HBO <input name="internet" id="internet" type="checkbox">Internet </p>
+                </fieldset>
+                <p class="formulario"><input type="reset" value="Borrar"> &nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Enviar"></p>
+            </form>
+            </div>
+        </main>
+        <footer>
+            <p class="p4">
+                Redes sociales:
+                    <a href="https://www.instagram.com/rickandmorty/"><img src="./img/instagram.svg" alt="instagram" class="instagram"></a>
+                    &nbsp;
+                    <a href="https://twitter.com/RickandMorty"><img src="./img/twittersvg.webp" alt="twitter" class="twitter"></a>
+                    &nbsp;
+                    <a href="https://www.hbomax.com/es/es?utm_id=sa%7C71700000087656917%7C58700007448105622%7Cp74176652972&gclid=CjwKCAiAhKycBhAQEiwAgf19eo489p-eBLZNC_39VNdbG8pZsf2oOj5tLm4FlR_yKXeHtBW46yRtihoCDScQAvD_BwE&gclsrc=aw.ds"><img src="./img/HBO_logo.svg.webp" alt="hbomax" class="hbo"></a>  
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Video de introducción de la serie:<a href="./videos.html"><img src="./img/camera_2.png" alt="video" class="video"></a>
+                Creador de la página: Sergio Pardo Gázquez        
+            </p>
+        </footer>
+</body>
+</html>
